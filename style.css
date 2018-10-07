@@ -58,4 +58,6 @@ section h4 {
   clear: both;
   padding-left:20px;
 }
-
+footer p{
+  float: right;
+}
