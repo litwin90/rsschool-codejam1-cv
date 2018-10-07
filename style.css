@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
 }
 body {
@@ -18,8 +18,8 @@ body {
     clear: both;
   }
 }
-@media (min-width: 500px){
-  .img1{
+@media (min-width: 500px) {
+  .img1 {
     margin: 10px;
     border-radius: 10px;
     float: left;
@@ -30,7 +30,7 @@ body {
   }
 }
 header p,
-header a{
+header a {
   margin-top: 0;
   margin-bottom: 0.4em;
   font-size: 0.8em;
@@ -38,7 +38,7 @@ header a{
   color: white;
   display: block;
 }
-header a:hover{
+header a:hover {
   color: blue;
   background-color: teal;
 }
@@ -46,10 +46,10 @@ header .contacts {
   margin: 10px 0 0 10px;
   display: inline-block;
 }
-.spacer{
+.spacer {
   clear: both;
 }
-header h1{
+header h1 {
   padding: 10px;
 }
 header {
@@ -68,8 +68,8 @@ section.last {
   border: none;
 }
 
-@media (max-width: 649px){
-  section p{
+@media (max-width: 649px) {
+  section p {
     clear: both;
     width: 70%;
     position: relative;
@@ -80,10 +80,10 @@ section.last {
     margin-top: 0.5em;
   }
 }
-@media (min-width: 650px){
+@media (min-width: 650px) {
   section p,
   section ul,
-  section table{
+  section table {
     clear: both;
     width: 70%;
     position: relative;
@@ -99,25 +99,25 @@ section.last {
   }
 
 }
-footer{
+footer {
   color: white;
   background-color: teal;
   border-radius: 5px;
   margin-bottom: 1em;
 }
 footer p,
-footer a{
+footer a {
   color: white;
   float: right;
   margin: 0 2em;
   text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
   color: blue;
   background-color: teal;
 }
-section a[href]{
+section a[href] {
   text-decoration: none;
   background-color: teal;
   color: white;
@@ -132,7 +132,7 @@ a:hover {
 .experience {
   padding: 0.5em 0;
 }
-section td{
+section td {
   border-right: none;
   border-left: none;
   border-bottom: 1px solid teal;
@@ -143,11 +143,11 @@ section tr:first-child {
   color: white;
   background-color: teal;
 }
-section tr:first-child td:first-child{
+section tr:first-child td:first-child {
   border-top-left-radius: 0.5em;
   border-bottom-left-radius: 0.5em;
 }
-section tr:first-child td:last-child{
+section tr:first-child td:last-child {
   border-top-right-radius: 0.5em;
   border-bottom-right-radius: 0.5em;
 }
