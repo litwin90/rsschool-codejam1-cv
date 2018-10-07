@@ -1,6 +1,6 @@
 *{
   margin: 0;
-  border:1px solid blue;
+
 
 }
 body {
@@ -14,7 +14,7 @@ body {
     display: none;
   }
   .img2{
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 10px 10px;
     border-radius: 10px;
     float: left;
     clear: both;
@@ -48,9 +48,15 @@ header h1{
 }
 header {
   height: auto;
-
+  background-color: teal;
+  color: white;
+  border-radius: 10px;
+  margin-top:10px;
 }
-
+section {
+  border-bottom: 1px solid teal;
+  color: teal;
+}
 section h4 {
   height: 100px;
   width: 165px;
@@ -60,4 +66,6 @@ section h4 {
 }
 footer p{
   float: right;
+  color: teal;
 }
+
