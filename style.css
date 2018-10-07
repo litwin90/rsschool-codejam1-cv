@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  border:1px solid blue;
+
+}
+body {
+  max-width: 1024px;
+  box-sizing: border-box;
+  margin-left:auto;
+  margin-right: auto;
+}
+@media (max-width: 499px){
+  .img1 {
+    display: none;
+  }
+  .img2{
+    margin: 0px 0px 0px 10px;
+    border-radius: 10px;
+    float: left;
+    clear: both;
+  }
+}
+@media (min-width: 500px){
+  .img1{
+    margin: 10px;
+    border-radius: 10px;
+    float: left;
+    clear: both;
+  }
+  .img2 {
+    display: none;
+  }
+}
+header p{
+  margin-top: 0;
+  margin-bottom:0.4em;
+  font-size: 0.8em;
+}
+header .contacts {
+  margin: 10px 0 0 10px;
+  display: inline-block;
+}
+.spacer{
+  clear: both;
+}
+header h1{
+  padding: 10px;
+}
+header {
+  height: auto;
+
+}
+
+section h4 {
+  height: 100px;
+  width: 165px;
+  float: left;
+  clear: both;
+  padding-left:20px;
+}
+
